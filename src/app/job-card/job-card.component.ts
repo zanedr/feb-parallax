@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { knowledgeList } from '../jobdata';
 
 @Component({
   selector: 'app-job-card',

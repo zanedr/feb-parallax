@@ -1,5 +1,5 @@
 import { AfterContentInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { jobData } from './jobdata';
+import { jobData, knowledgeList, personalSynopsis } from './jobdata';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,8 @@ import { jobData } from './jobdata';
 export class AppComponent implements OnInit, AfterContentInit {
   title = 'feb-parallax';
   jobData = jobData;
+  personalSynopsis = personalSynopsis;
+  knowledgeList = knowledgeList;
 
   ngOnInit() {
   }

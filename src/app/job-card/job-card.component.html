@@ -1,14 +1,34 @@
 <div *ngIf="information" class="job-card-container">
-  <div class="job-card-top">
-    <span class="job-card-title">
+  <div class="job-card-top" *ngIf="information['title']">
+    <span class="job-card-title" *ngIf="information['title']">
       <h2 class="job-title-text">{{information.title}}</h2>
       <h3 class="job-title-text">{{information.company}}</h3>
     </span>
-    <span class="job-card-time">
-      <h3 class="job-title-text">{{information.time}}</h3>
+    <span class="job-card-time" *ngIf="information['time']">
+      <h3 class="job-title-text job-time-text">{{information.time}}</h3>
     </span>
   </div>
-  <div class="job-card-bottom" *ngFor="let detail of information.details">
-    <p>• {{detail}}</p>
+  <div *ngIf="information['details']">
+    <div class="job-card-bottom" *ngFor="let detail of information.details">
+      <p>• {{detail}}</p>
+    </div>
+  </div>
+
+  <div class="job-card-full" *ngIf="information['personalStatement']">
+    <p id="personal-statement-text">
+      Software developer with a focus on clean, concise, testable code.
+      Work is more efficient, more effective, and more enjoyable when
+      team collaboration is positive and communication is open. I strive
+      to be an encouraging, creative presence in any environment.
+    </p>
+  </div>
+
+  <div class="job-card-full" *ngIf="information['knowledgeList']">
+    <h2 class="knowledge-title">Knowledge</h2>
+    <div class="knowledge-list-container">
+      <div *ngFor="let item of information['knowledgeList']">
+        <p class="knowledge-list">• {{item}}</p>
+      </div>
+    </div>
   </div>
 </div>

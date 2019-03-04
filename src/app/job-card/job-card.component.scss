@@ -5,17 +5,21 @@
 	//border-bottom: 1px solid #efefef;
 	margin: 0;
 	padding: 0;
-	background-color: #0F1E1E;
+	//background-color: #0F1E1E;
 }
 
 .job-card-top {
 	font-family: 'Raleway', serif;
-	width: 98%;
-	margin: 0 auto;
+	//width: 98%;
+	margin: 65px auto 0;
 	font-weight: 200;
 	display: flex;
 	justify-content: space-between;
 	//border-bottom: 1px solid #0c0c0c;
+}
+
+.job-time-text {
+	font-size: 16px;
 }
 
 .job-title-text {
@@ -25,7 +29,42 @@
 .job-card-bottom {
 	font-family: 'Raleway', serif;
 	font-weight: 200;
-	width: 96%;
 	margin: 0 auto;
+}
+
+#personal-statement-text {
+	margin-top: 110px;
+	font-family: 'Raleway', serif;
+	font-weight: 200;
+	width: 90%;
+	font-size: 20px;
+}
+
+.job-card-full {
+	display: flex;
+}
+
+.knowledge-title {
+	font-family: 'Raleway', serif;
+	font-weight: 200;
+	color: #efefef;
+	width: 150px;
+	margin: 0;
+	margin-top: calc(50% - 20px);
+	margin-left: 30px;
+}
+
+.knowledge-list-container {
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0;
+}
+
+.knowledge-list {
+	font-family: 'Raleway', serif;
+	font-weight: 200;
+	color: #efefef;
+	margin: 0 0 2px 45px;
 }
 
