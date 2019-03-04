@@ -1,7 +1,9 @@
 <div *ngIf="information" class="job-card-container">
+  <h2 *ngIf="information['spaceTop']" class="job-status">{{information['jobStatus']}}</h2>
   <div class="job-card-top" *ngIf="information['title']">
     <span class="job-card-title" *ngIf="information['title']">
       <h2 class="job-title-text">{{information.title}}</h2>
+      <h2 *ngIf="information['titleB']" class="job-title-text">{{information.titleB}}</h2>
       <h3 class="job-title-text">{{information.company}}</h3>
     </span>
     <span class="job-card-time" *ngIf="information['time']">

@@ -12,7 +12,6 @@ export class JobCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('information', this.information);
   }
 
 }

@@ -1,4 +1,6 @@
 export const jobData = [{
+  spaceTop: true,
+  jobStatus: 'Currently',
   title: 'Software Engineer',
   company: 'H&P Technologies',
   time: 'Aug. 2018 - Present',
@@ -8,6 +10,8 @@ export const jobData = [{
     'Coordinated with internation team to develop, design, and test software.'
   ]
 }, {
+  spaceTop: true,
+  jobStatus: 'Previously',
   title: 'Front-End Engineer',
   company: 'Charter Communications',
   time: 'Oct. 2017 - Aug. 2018',
@@ -17,6 +21,7 @@ export const jobData = [{
     'Refactored and fixed bugs in legacy code to streamline and enhance already created applications.'
   ]
 }, {
+  spaceTop: true,
   title: 'Music Educator',
   company: 'McMichael Studios',
   time: '2011 - 2017',
@@ -25,7 +30,8 @@ export const jobData = [{
     'Regularly found unique, personalized methods to communicate foreign concepts to pupils in a relatable way',
   ]
 }, {
-  title: 'Multi-instrumentalist graphic designer manager',
+  title: 'Multi-instrumentalist/',
+  titleB: 'graphic designer/ manager',
   company: 'Montu, LLC.',
   time: '2010 - 2017',
   details: [
