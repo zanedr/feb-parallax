@@ -1,0 +1,31 @@
+.job-card-container {
+	width: 400px;
+	height: 400px;
+	color: #efefef;
+	//border-bottom: 1px solid #efefef;
+	margin: 0;
+	padding: 0;
+	background-color: #0F1E1E;
+}
+
+.job-card-top {
+	font-family: 'Raleway', serif;
+	width: 98%;
+	margin: 0 auto;
+	font-weight: 200;
+	display: flex;
+	justify-content: space-between;
+	//border-bottom: 1px solid #0c0c0c;
+}
+
+.job-title-text {
+	margin: 0;
+}
+
+.job-card-bottom {
+	font-family: 'Raleway', serif;
+	font-weight: 200;
+	width: 96%;
+	margin: 0 auto;
+}
+

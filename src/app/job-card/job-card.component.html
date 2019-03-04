@@ -1,0 +1,14 @@
+<div *ngIf="information" class="job-card-container">
+  <div class="job-card-top">
+    <span class="job-card-title">
+      <h2 class="job-title-text">{{information.title}}</h2>
+      <h3 class="job-title-text">{{information.company}}</h3>
+    </span>
+    <span class="job-card-time">
+      <h3 class="job-title-text">{{information.time}}</h3>
+    </span>
+  </div>
+  <div class="job-card-bottom" *ngFor="let detail of information.details">
+    <p>• {{detail}}</p>
+  </div>
+</div>

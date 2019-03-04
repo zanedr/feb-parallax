@@ -1,0 +1,151 @@
+#total-container {
+	height: 300vh;
+	width: 100vw;
+	background-color: #0F1E1E;
+}
+
+#container {
+	height: 200vh;
+}
+
+#parallax-container {
+}
+
+#name {
+	position: fixed;
+	top: 0;
+	left: calc(50vw - 700px);
+	width: 1400px;
+	height: 100px;
+	//border: 1px solid #0c0c0c;
+	background-color: #0F1E1E;
+	z-index: 3;
+}
+
+#main-title {
+	color: #efefef;
+	//margin-left: 20%;
+	font-size: 40px;
+	font-family: 'Raleway', serif;
+	font-weight: 200;
+}
+
+#job-card-0, #job-card-1, #job-card-2, #job-card-3, #job-card-4, #job-card-5, #job-card-6 {
+	position: fixed;
+	z-index: 1;
+	top: 550px;
+	width: 498px;
+	height: 400px;
+}
+
+#job-card-0 {
+	left: calc(50% - 650px);
+}
+
+#job-card-1 {
+	left: calc(50% - 200px);
+}
+
+#job-card-2 {
+	left: calc(50% + 250px);
+}
+
+#job-card-3 {
+	left: calc(50% - 650px);
+	top: 100px;
+}
+
+#job-card-4 {
+	left: calc(50% - 200px);
+	top: 100px;
+}
+
+#job-card-5 {
+	left: calc(50% + 250px);
+	top: 100px;
+}
+
+#fill-div-0, #fill-div-1, #fill-div-2, #fill-div-3, #fill-div-4, #fill-div-5, #fill-div-6, #fill-div-7 {
+	position: fixed;
+	top: 101px;
+	width: 48px;
+	height: 400px;
+	border-left: 1px solid #efefef;
+	z-index: 2;
+}
+
+#fill-div-0 {
+	left: calc(50vw - 699px);
+}
+
+#fill-div-1 {
+	left: calc(50vw - 249px);
+}
+
+#fill-div-2 {
+	left: calc(50vw + 201px);
+}
+
+#fill-div-3 {
+	left: calc(50vw + 651px);
+}
+
+#fill-div-4 {
+	top: 552px;
+	left: calc(50vw - 699px);
+}
+
+#fill-div-5 {
+	top: 552px;
+	left: calc(50vw - 249px);
+}
+
+#fill-div-6 {
+	top: 552px;
+	left: calc(50vw + 201px);
+}
+
+#fill-div-7 {
+	top: 552px;
+	left: calc(50vw + 651px);
+}
+
+#content{
+	overflow: visible;
+	text-align: center;
+	font-size: 1.5rem;
+}
+#container{
+	width: 100%;
+}
+
+#square{
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+
+#rectangle{
+	position: fixed;
+	z-index: 1;
+	bottom: 0px;
+	left: 50px;
+	width: 200px;
+	height: 100px;
+	background-color: red;
+}
+
+#circle{
+	position: fixed;
+	z-index: 1;
+	bottom: 200px;
+	right: 0px;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border-radius: 50px;
+}
