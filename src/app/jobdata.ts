@@ -19,10 +19,20 @@ export const jobData = [{
 }, {
   title: 'Music Educator',
   company: 'McMichael Studios',
-  time: 'Aug. 2018 - Present',
+  time: '2011 - 2017',
   details: [
     'Created individual curriculum for students based on personality, motivation, learning style, and age.',
     'Regularly found unique, personalized methods to communicate foreign concepts to pupils in a relatable way',
+  ]
+}, {
+  title: 'Multi-instrumentalist graphic designer manager',
+  company: 'Montu, LLC.',
+  time: '2010 - 2017',
+  details: [
+    'Multi-instrumentalist and touring musician with the band Montu.',
+    'Kept the peace between multiple, chaotic personalities to maintain focus on common goals.',
+    'Interacted with booking agents, venue owners, and fans to promote a number of regionally successful groups.',
+    'Designed graphics and branding for albums, posters, and merchandise.',
   ]
 }];
 
